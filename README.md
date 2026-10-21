@@ -40,7 +40,7 @@ flowchart TD
     end
 
     subgraph DataLayer["3. Database & Persistence"]
-        Prisma --> PG[(PostgreSQL 16)]
+        Prisma --> PG[("PostgreSQL 16")]
     end
 
     subgraph DevOps["4. CI/CD & Production Infrastructure"]
